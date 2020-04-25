@@ -21,7 +21,7 @@
 
   <div class="field">
     <%= f.label :prefecture_code %><br>
-    <%= f.collection_select :prefecture_code, JpPrefecture::Prefecture.all, :name, :name, class: "address", id: "address_prefecture_name" %>
+    <%= f.collection_select:prefecture_code, JpPrefecture::Prefecture.all, :name, :name, class: "address", id: "address_prefecture_name" %>
     <%= f.text_field :city, autofocus: true, placeholder: 'city', class: "address", id:"address_city" %>
     <%= f.text_field :building, autofocus: true, placeholder: 'building', class: "address", id: "address_street" %>
   </div>

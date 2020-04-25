@@ -68,4 +68,5 @@ gem "refile-mini_magick"
 gem "sudo"
 gem "jquery-rails"
 gem "jp_prefecture"
+gem "geocoder"
 
